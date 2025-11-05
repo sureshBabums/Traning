@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      // ... your other options
+    },
+    // Multiple Cucumber HTML report generated in:
+    "include": [
+      "src/**/*",
+      "@types/**/*" // If you created an @types folder
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "src/helper/types"
+  ],
+  }
